@@ -25,7 +25,7 @@ scissors = '''
 ---.__(___)
 '''
 
-handSign = input("Rock, Paper, or Scissors? ")
+handSign = input("Rock, Paper, or Scissors? ").lower()
 import random
 hands = [rock, paper, scissors]
 computersHand = random.choice(hands)
